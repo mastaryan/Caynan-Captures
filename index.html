@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Caynan Captures — 3D Coverflow</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<nav class="topnav">
+  <div class="brand">CAYNAN CAPTURES</div>
+  <div class="links">
+    <a href="#">HOME</a>
+    <a href="#">GAMES</a>
+  </div>
+</nav>
+
+<main>
+  <section class="coverflow-wrap">
+    <button class="arrow left" id="prevBtn" aria-label="Previous">&#10094;</button>
+    <div id="coverflow" class="coverflow" aria-label="3D Coverflow"></div>
+    <button class="arrow right" id="nextBtn" aria-label="Next">&#10095;</button>
+  </section>
+</main>
+
+<footer>© <span id="year"></span> Caynan Captures</footer>
+
+<script>
+window.COVERS = [
+  {title:'Pulaski Co vs Somerset', src:'assets/covers/pulaski_vs_somerset_volleyball.jpg'},
+  {title:'Somerset vs Southwestern', src:'assets/covers/somerset_vs_southwestern_football.jpg'},
+  {title:'Lincoln Co vs Casey Co', src:'assets/covers/lincoln_co_vs_casey_co_basketball.jpg'},
+  {title:'Pulaski Co Cheer Invitational', src:'assets/covers/pulaski_co_cheer_invitational.jpg'},
+  {title:'Somerset Baseball', src:'assets/covers/somerset_baseball.jpg'},
+  {title:'Somerset vs Football', src:'assets/covers/somerset_vs_football.jpg'}
+];
+</script>
+<script src="script.js"></script>
+</body>
+</html>
