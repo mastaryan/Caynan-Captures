@@ -71,11 +71,11 @@ window.addEventListener('resize', layout);
 function fallbackCovers() {
   window.COVERS = [
     { title: 'Pulaski Co vs Somerset', src: 'assets/covers/pulaski_vs_somerset_volleyball.jpg' },
-    { title: 'Somerset vs Southwestern', src: 'assets/covers/somerset_vs_southwestern_football.jpg' },
+    { title: 'Somerset Soccer', src: 'assets/covers/somerset_vs_southwestern_football.jpg' },
     { title: 'Lincoln Co vs Casey Co', src: 'assets/covers/lincoln_co_vs_casey_co_basketball.jpg' },
-    { title: 'Pulaski Co Cheer Invitational', src: 'assets/covers/pulaski_co_cheer_invitational.jpg' },
-    { title: 'Somerset Baseball', src: 'assets/covers/somerset_baseball.jpg' },
-    { title: 'Somerset vs Football', src: 'assets/covers/somerset_vs_football.jpg' }
+    { title: 'Somerset Cheer Invitational', src: 'assets/covers/pulaski_co_cheer_invitational.jpg' },
+    { title: 'Somerset Volleyball', src: 'assets/covers/somerset_baseball.jpg' },
+    { title: 'Somerset Football', src: 'assets/covers/somerset_vs_football.jpg' }
   ];
   build();
   layout();
